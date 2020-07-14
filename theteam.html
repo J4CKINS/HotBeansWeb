@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hot Beans Web | Team</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" type="text/css" href="css/theteam.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Icons -->
+    </head>
+    <body>
+        <nav>
+            <p>Hot Beans Web</p>
+            <i class="fa fa-bars" onclick="navClicked()"></i>
+            <ul>
+                <a href="#"><li>Courses</li></a>
+                <a href="#"><li>Jobs</li></a>
+                <a href="#"><li class="selected">The Team</li></a>
+                <a href="index.html"><li>Home</li></a>
+            </ul>
+        </nav>
+        <div class="mobile-nav">
+            <ul>
+                <a href="index.html"><li onclick="closeNav()">Home</li></a>
+                <a href="theteam.html"><li onclick="closeNav()">The Team</li></a>
+                <a href="#"><li onclick="closeNav()">Jobs</li></a>
+                <a href="#"><li onclick="closeNav()">Courses</li></a>              
+            </ul>
+        </div>
+        <div class="wrapper">
+            <div class="section">
+                <h1>The Team</h1>
+                <p class="section-text">We are lucky to have such talented individuals working for us at Hot Beans Web. Everyone at our company plays a key role when producing a website for a client.</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="section">
+                <div class="profile">
+                    <img src="img/employee1.png"/>
+                    <p class="title">Jack Atkins</p>
+                    <p class="role">CEO</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="profile">
+                    <img src="img/employee2.png"/>
+                    <p class="title">Callum Hill</p>
+                    <p class="role">Project Manager</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="profile">
+                    <img src="img/employee3.png"/>
+                    <p class="title">Ryan Smith</p>
+                    <p class="role">Server Administrator</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="profile">
+                    <img src="img/employee4.png"/>
+                    <p class="title">Emily Bromell</p>
+                    <p class="role">Lead Programmer</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="profile">
+                    <img src="img/employee5.png"/>
+                    <p class="title">Joseph Gyseman</p>
+                    <p class="role">Client Support</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="profile">
+                    <img src="img/employee6.png"/>
+                    <p class="title">Mariel Beligolo</p>
+                    <p class="role">Lead Designer</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="profile">
+                    <img src="img/employee7.png"/>
+                    <p class="title">Jasmine Yeo</p>
+                    <p class="role">QA Tester</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="profile">
+                    <img src="img/employee8.png"/>
+                    <p class="title">Tayte Pilcher</p>
+                    <p class="role">Web Content Specialist</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="profile">
+                    <img src="img/employee9.png"/>
+                    <p class="title">Danny Travis</p>
+                    <p class="role">Information Architect</p>
+                </div>
+            </div>
+            <div class="section">
+                <p class="section-text">Want to be part of our amazing team?</p>
+                <p class="section-caption">Click here to fill out a job application form</p>
+                <button class="section-button">Job Application</button>
+            </div>
+        </div>
+        <footer>
+            <div id="top"><a href="#">Home</a>  |   <a href="#">The Team</a>    |   <a href="#">Jobs</a>    |   <a href="#">Courses</a></div>
+            <div id="bottom">&copy; Hot Beans Web 2020</div>
+        </footer>
+        <script src="js/mobile-nav-controller.js"></script>
+    </body>
+</html>

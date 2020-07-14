@@ -1,0 +1,42 @@
+@import "global.css";
+
+.profile {
+    margin: 1% 1%;
+    width: 31.3%;
+    background-color: var(--dark-grey);
+    box-shadow: 0px 0px 18px #00000088;
+    float: left;
+    border-radius: 20px;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.profile p {
+    padding: 5px 0;
+    color: #fff;
+}
+
+.profile .title {
+    font-size: 1.75vw;
+    background-color: var(--green);
+}
+
+.profile .role {
+    font-size: 1vw;;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .profile {
+        width: 100%;
+    }
+    .profile .title {
+        font-size: 7vw;
+    }
+    .profile .role {
+        font-size: 5vw;
+    }
+}

@@ -1,0 +1,43 @@
+@import "global.css";
+
+#title {
+    width: 100%;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+    background-image: url("../img/code.jpeg");
+    background-attachment: fixed;
+    background-position-x: 6000px;
+    background-position-y: -600px;
+    border-bottom: 1px solid black;
+}
+
+#title #heading {
+    padding: 130px 0px 5px 0;
+    font-size: 60px;
+}
+
+#title #subheading {
+    padding: 0 0px 130px 0;
+    font-size: 30px;
+    font-weight: 100;
+}
+#gallery .image-container {
+    width: 31.3%;
+    margin: 0px 1% 50px 1%;
+    background-color: var(--dark-grey);
+    float: left;
+    border-radius: 20px;
+    box-shadow: 0px 0px 18px #00000088;
+}
+
+#gallery p {
+    color: #fff;
+    font-size: 2vw;
+    padding: 5px 0;
+}
+
+#gallery img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hot Beans Web | Home</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;&display=swap" rel="stylesheet"> <!-- Fonts -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Icons -->
+    </head>
+    <body>
+        <nav>
+            <p>Hot Beans Web</p>
+            <i class="fa fa-bars" onclick="navClicked()"></i>
+            <ul>
+                <a href="#"><li>Courses</li></a>
+                <a href="#"><li>Jobs</li></a>
+                <a href="theteam.html"><li>The Team</li></a>
+                <a href="#"><li class="selected">Home</li></a>
+            </ul>
+        </nav>
+        <div class="mobile-nav">
+            <ul>
+                <a href="#"><li onclick="closeNav()">Home</li></a>
+                <a href="theteam.html"><li onclick="closeNav()">The Team</li></a>
+                <a href="#"><li onclick="closeNav()">Jobs</li></a>
+                <a href="#"><li onclick="closeNav()">Courses</li></a>              
+            </ul>
+        </div>
+        <div id="title">
+            <div>
+                <p id="heading">Hot Beans Web</p>
+                <p id="subheading">Providing professional web development since 2010</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="section">
+                <p class="section-header">About Us</p>
+                <p class="section-text">Hello, we are Hot Beans Web! A professional web development company built around the purpose to design, develop, and publish professional grade websites built around your requirements. Our team have been professionaly trained and have years of experience in developing for front end, and back end webpages and applications.</p>
+            </div>
+            <div class="section">
+                <div id="gallery">
+                    <div class="image-container">
+                        <img src="img/office-building.png" />
+                        <p>Our Building</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="img/office.png" />
+                        <p>Our Office</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="img/team.png" />
+                        <p>Our Team</p>
+                    </div>
+                </div>  
+            </div>
+            <div class="section">
+                <p class="section-header">Get a Quote</p>
+                <p class="section-text">Thinking of developing a webpage for your company/business? Leave it to us! Our team of designers, developers, and server experts, will build a website around any specifications you give them. We will make sure we stick to the time restraints you require, and produce a product that will be the best of quality.</p>
+                <p class="section-caption">Want a website developed? We're happy to help! Click here to get a quote.</p>
+                <button class="section-button">Get a Quote</button>
+            </div>
+            <div class="section">
+                <p class="section-header">Looking For Employment?</p>
+                <p class="section-text">We are currently looking for trained junior web developers to come and work at Hot Beans Web. If you would like to apply for a job here you can fill out a digital application form by clicking the button below.</p>
+                <p class="section-caption">Click here to fill out an application form.</p>
+                <button class="section-button">Job Forms</button>
+            </div>
+        </div>
+        <footer>
+            <div id="top"><a href="#">Home</a>  |   <a href="#">The Team</a>    |   <a href="#">Jobs</a>    |   <a href="#">Courses</a></div>
+            <div id="bottom">&copy; Hot Beans Web 2020</div>
+        </footer>
+        <script src="js/mobile-nav-controller.js"></script>
+    </body>
+</html>
